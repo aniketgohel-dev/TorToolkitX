@@ -643,7 +643,9 @@ async def set_password_zip(message):
 
 
 async def start_handler(event):
-    msg = "Hello I'm torrent/link to tg bot for use try leech or else contact @anikket123"
+    msg = (
+        "Hello I'm torrent/link to tg bot for use try leech or else contact @anikket123"
+    )
     await event.reply(msg, parse_mode="html")
 
 
