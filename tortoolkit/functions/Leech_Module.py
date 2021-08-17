@@ -16,7 +16,6 @@ from .. import transfer
 from ..core.getVars import get_val
 from ..core.status.status import ARTask, MegaDl
 from ..core.status.upload import TGUploadTask
-from ..functions.Human_Format import human_readable_bytes
 from . import QBittorrentWrap, ariatools, megatools
 from .dl_generator import generate_directs
 from .megatools import megadl
