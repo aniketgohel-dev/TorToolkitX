@@ -282,7 +282,7 @@ async def check_link(msg, rclone=False, is_zip=False, extract=False, prev_msg=No
                         torlog.exception("Exception in torrent link")
 
                     await ul_task.set_inactive()
-                   
+
                     torlog.info("Here are the fiels uploaded {}".format(rdict))
                     await QBittorrentWrap.delete_this(dl_task.hash)
                 else:
